@@ -1,3 +1,9 @@
+<style>
+    .margin_40 {
+    margin-bottom: 40px !important;
+}
+</style>
+
 <div class="hidden-popup-bg">
     <div class="hidden-popup-form">
         <div class="popup-header">
@@ -11,7 +17,7 @@
 </div>
 
 <div class="show_phone mobile_banner">
-    <img src="http://assets.codecloudapp.com/sites/57d050636e6f643243000000/image/png/1456154112000/mobile_bg.png" class="" alt="banner">
+    <img src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1456154112000/mobile_bg.png" class="" alt="banner">
     <div class="menu_links">
         <a href="/stores">VIEW DIRECTORY</a>
         <a href="/promotions">SEE OUR SPECIALS</a>
@@ -25,7 +31,7 @@
     <ul class="slides" id="home_banner">
         <script id="banner_template" type="x-tmpl-mustache/text">
             <li>
-                <div style="background-image:url(http://assets.codecloudapp.com/sites/57d050636e6f643243000000/image/jpeg/1466691829000/bg-1.jpg)" class="banner_image_div">
+                <div style="background-image:url(http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/jpeg/1466691829000/bg-1.jpg)" class="banner_image_div">
                     <a class="banner_image_li" href="{{url}}" {{css}} onclick="{{noLink}}" >
                     </a>
                 </div>
@@ -34,7 +40,7 @@
     </ul>
 </div>
 </div>
-<div class="content_container main_container hidden_phone">
+<div class="content_container main_container hidden_phone margin_40">
     <div class="feature_row" id="feature_container">
         <script id="feature_template" type="x-tmpl-mustache/text">
             <div class="feature_item wow animated flipInX animated">
@@ -49,27 +55,27 @@
         </script>
     </div>
     <div class="clearfix"></div>
-    <div class="promotions">
-        <h3 class="promotion_heading">Up Coming Promotions & Events!</h3>
-        <p class="exclusive_deals">don’t miss our exclusive deals</p>
-        <div class="home_promotions feature_row" id="promos_container">
-            <script id="promos_template" type="x-tmpl-mustache/text">
-                <div class="promotion_item wow animated flipInX animated text-center">
-                    <a href="/promotions/{{slug}}">
-                        <img class="featured_promo_img" src="{{image_url}}" />
-                        <h3 class="promotion_header home_promos">{{name}}</h3>
-                        <p class="promotion_dates">{{dates}}</p>
-                    </a>
-                </div>
-            </script>
-        </div>
-        <div class="clearfix"></div>
-    </div>
+    <!--<div class="promotions">-->
+    <!--    <h3 class="promotion_heading">Up Coming Promotions & Events!</h3>-->
+    <!--    <p class="exclusive_deals">don’t miss our exclusive deals</p>-->
+    <!--    <div class="home_promotions feature_row" id="promos_container">-->
+    <!--        <script id="promos_template" type="x-tmpl-mustache/text">-->
+    <!--            <div class="promotion_item wow animated flipInX animated text-center">-->
+    <!--                <a href="/promotions/{{slug}}">-->
+    <!--                    <img class="featured_promo_img" src="{{image_url}}" />-->
+    <!--                    <h3 class="promotion_header home_promos">{{name}}</h3>-->
+    <!--                    <p class="promotion_dates">{{dates}}</p>-->
+    <!--                </a>-->
+    <!--            </div>-->
+    <!--        </script>-->
+    <!--    </div>-->
+    <!--    <div class="clearfix"></div>-->
+    <!--</div>-->
 </div>
 <div class="content_container position_relative">
     <h2 class="heading text-center show_phone">VISIT US</h2>
-    <div class="overlay" onclick="style.pointerEvents='none'"></div>
-    <iframe class="grayscale" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12382.349216191882!2d-77.19755!3d39.115865!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2b626593e926bf75!2sRIO+Washingtonian+Center!5e0!3m2!1sen!2sca!4v1473270022662" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+   <div class="overlay" onclick="style.pointerEvents='none'"></div>
+    <iframe class="grayscale" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12382.349216191882!2d-77.19755!3d39.115865!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2b626593e926bf75!2sRIO+Washingtonian+Center!5e0!3m2!1sen!2sca!4v1473270022662" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
 </div>
 <style>
     .newsletter_container{
